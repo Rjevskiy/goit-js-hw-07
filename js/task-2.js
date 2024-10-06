@@ -1,7 +1,7 @@
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
-    alt: "White and Black Long Fur Cat",
+    alt: "White and Black Long Fur Cat", 
   },
   {
     url: "https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?dpr=2&h=750&w=1260",
@@ -22,20 +22,21 @@ const images = [
   {
     url: "https://cdn.pixabay.com/photo/2019/05/17/04/35/lighthouse-4208843_1280.jpg",
     alt: "Lighthouse Coast Sea",
-  },
+  }
 ];
+
+
 
 const gallery = document.querySelector(".gallery");
 
+
+
 const galleryItems = images
-  .map(({ url, alt }) => `<li><img src="${url}" alt="${alt}" class="gallery-image"></li>`)
+  .map(({ url, alt }) => 
+    `<li><img src="${url}" alt="${alt}" class="gallery-image" style="width: 360px; height: 300px; object-fit: cover;"></li>`)
   .join("");
 
-
-gallery.insertAdjacentHTML("beforeend", galleryItems);
-
-
-
+gallery.innerHTML = galleryItems;
 
 // Використовуй масив об'єктів images для створення елементів <img>, вкладених в <li>.
 
