@@ -110,3 +110,19 @@ button {
   padding-bottom: 100px;
 }
 
+.conteiner_text{
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 136px;
+  background: #fff;
+}
+
+.input{
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
