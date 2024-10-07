@@ -125,4 +125,114 @@ button {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  padding-left: 16px;
+}
+
+.h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-top: 16px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 256px;
+    background-color: #fff;
+    align-items: flex-start;
+}
+
+.item_4{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+
+.button{
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  color: #fff;
+  margin-top: 16px;
+  border: none;
+  }
+
+.widget{
+  border-radius: 8px;
+    padding: 100px 88px;
+    width: 345px;
+    height: 280px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.change-color{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background: #4e75ff;
+    border: none;
+    color: #fff;
+
+}
+
+.controls{
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  margin-bottom: 16px;
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+
+.boxes{
+  border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 134px;  
+    background: #f6f6fe;
+    display: flex;
+    padding: 32px;
+    gap: 44px;
+    }
+
+
+.button{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+ 
+  }
+
+.button_1{
+  border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 72px;
+    width: 150px;
+    height: 40px;
+   background-color: transparent;
+}
+
+.button_3 {
+  background: #ff4e4e;
 }
